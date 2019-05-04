@@ -15,6 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
         <COMPID name="Interaction" mc="Standard.Interaction" uid="dadceed4-7109-4a62-9ae4-13edc34a0303"/>
+        <COMPID name="Interaction1" mc="Standard.Interaction" uid="75ac93bc-3e8b-4d38-891b-19eef7e2debc"/>
       </COMP>
       <COMP relation="Declared">
         <OBJECT>

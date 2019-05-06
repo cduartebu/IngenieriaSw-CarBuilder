@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Auto Diagrams" version="4">
+  <OBJECT>
+    <ID name="Auto Diagrams" mc="Infrastructure.DiagramSet" uid="b6328551-75fd-4b25-8cc9-df40b9ad1dae"/>
+    <PID name="AppAutoBuilder" mc="Infrastructure.DiagramSet" uid="43f06168-fded-4f3b-823b-3b796da26128"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Auto Diagrams]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Sub">
+        <COMPID name="SubPackage Structure" mc="Infrastructure.DiagramSet" uid="006db5ff-435e-4975-b76c-5f2fd6edf3d8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

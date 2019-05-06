@@ -37,7 +37,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="InformationSource">
-              <ID name="Actor" mc="Standard.Actor" uid="15af7a3d-5de5-4907-ab70-ad606d2d0060"/>
+              <ID name="Cliente" mc="Standard.Actor" uid="15af7a3d-5de5-4907-ab70-ad606d2d0060"/>
             </LINK>
             <LINK relation="InformationTarget">
               <ID name="Simular Potencia" mc="Standard.UseCase" uid="c15fac5e-a069-4d9a-9617-ff8b6a0f257e"/>
@@ -60,7 +60,7 @@
         <COMPID name="Simulador Indicador Aerodinamico" mc="Standard.UseCase" uid="7c0637c7-e6d2-4bbb-8ef2-33b17e0776d7"/>
         <COMPID name="Simulador Velocidad maxima" mc="Standard.UseCase" uid="16d98414-9f3f-4581-95ee-7c3f57acb46d"/>
         <COMPID name="Simulador aceleracion" mc="Standard.UseCase" uid="c01d07c6-a9dc-49a5-8682-498ad44a6bd6"/>
-        <COMPID name="Actor" mc="Standard.Actor" uid="15af7a3d-5de5-4907-ab70-ad606d2d0060"/>
+        <COMPID name="Cliente" mc="Standard.Actor" uid="15af7a3d-5de5-4907-ab70-ad606d2d0060"/>
         <COMPID name="Simular Potencia" mc="Standard.UseCase" uid="c15fac5e-a069-4d9a-9617-ff8b6a0f257e"/>
         <COMPID name="Cliente" mc="Standard.Actor" uid="d7ff6009-62d8-444b-8f35-7019b24b6a28"/>
         <COMPID name="Simular Velociad Maxima" mc="Standard.UseCase" uid="1e0c3754-aad2-44da-b9ca-1d1745fe39b1"/>
@@ -80,15 +80,23 @@
         <COMPID name="Realizar calculos" mc="Standard.UseCase" uid="ed3f89b9-0148-4081-8e87-c81716903d7f"/>
         <COMPID name="Contruccion carro" mc="Standard.UseCase" uid="c5a2e634-428c-4a4f-9ee1-94f5e5e7a078"/>
         <COMPID name="Realizar calculos" mc="Standard.UseCase" uid="47a78fc7-4f12-4f11-96d4-35f49746bae0"/>
+        <COMPID name="Simulacion" mc="Standard.UseCase" uid="e01fc14b-571c-4ad6-81de-b0e1693dc9e2"/>
+        <COMPID name="Simulacion" mc="Standard.UseCase" uid="5ac58d84-c355-4468-8093-4da4914ef2d6"/>
+        <COMPID name="Potencia" mc="Standard.UseCase" uid="224f01b6-a0c0-4622-a603-e7da95a74918"/>
+        <COMPID name="Torque" mc="Standard.UseCase" uid="d3896968-8329-4bb3-b1de-a3534292005e"/>
+        <COMPID name="Indicador aerodinamico" mc="Standard.UseCase" uid="4e44f23e-9ceb-4423-ad9a-8d639a764c6b"/>
+        <COMPID name="Aceleracion" mc="Standard.UseCase" uid="ef8334a4-7ef9-4967-84cb-76912cc7429c"/>
+        <COMPID name="Velocidad" mc="Standard.UseCase" uid="0cfdb6e9-7919-4bec-9269-c8af7f1f5a79"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Sub-Packages Structure Diagram (automatic)" mc="Standard.ClassDiagram" uid="47f1c4fc-ff4c-44f9-9ffa-84cabaa20e85"/>
-        <COMPID name="Construrir_carro" mc="Standard.UseCaseDiagram" uid="911d9581-c707-4842-a0a1-4fe3c0f07013"/>
+        <COMPID name="Contrucion carro" mc="Standard.UseCaseDiagram" uid="911d9581-c707-4842-a0a1-4fe3c0f07013"/>
         <COMPID name="Simulador_potencia" mc="Standard.UseCaseDiagram" uid="85857f5a-8684-4deb-bf2a-fcfc6184d4f4"/>
         <COMPID name="Simulador_torque" mc="Standard.UseCaseDiagram" uid="e33b480e-6abb-4ace-b17d-f9190246f811"/>
         <COMPID name="Simulador Indicador Aerodinamico" mc="Standard.UseCaseDiagram" uid="8fd142f1-1225-4743-b2c1-7c886a147473"/>
         <COMPID name="Simulador Aceleracion" mc="Standard.UseCaseDiagram" uid="7a6037f8-f9dd-43ec-9178-f957bb9da875"/>
         <COMPID name="Simulador Velocidad maxima" mc="Standard.UseCaseDiagram" uid="43b9e4fe-3a59-4a61-b7ca-a1557d2a4dd3"/>
+        <COMPID name="Simulacion" mc="Standard.UseCaseDiagram" uid="0a984f7e-d208-4e0a-8e2e-9cefba9509e3"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -15,17 +15,31 @@
     <DEPENDENCIES>
       <COMP relation="Used">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="30467f20-e2ab-4d86-b11d-8b3c9be692ad"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="43261e47-1229-449c-8e42-c01c8f8cfac4"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Construir carro" mc="Standard.UseCase" uid="7c259aeb-7788-46e8-b3c5-feb0d16e6f93"/>
+              <ID name="Realizar calculos" mc="Standard.UseCase" uid="0713e3d3-f201-4d16-a0af-be2ce9082a2e"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Dependency" uid="0e4c7e4d-4f70-4532-adbe-414cfaf6f421"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="Construir carro" mc="Standard.UseCase" uid="7c259aeb-7788-46e8-b3c5-feb0d16e6f93"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

@@ -13,13 +13,82 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="689963f1-8548-4db0-8e76-c5956b3e48d3"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="Cliente" mc="Standard.Actor" uid="8fa292e7-e5b5-4aaa-b633-6a73e10c782b"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="Informacion carros" mc="Standard.UseCase" uid="d8799c16-e3d4-4ba2-8fc6-56209e1f6dcd"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="dc53b4a6-22b2-48a6-a4ef-51a0d8bc6eba"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="Actor" mc="Standard.Actor" uid="15af7a3d-5de5-4907-ab70-ad606d2d0060"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="Simular Potencia" mc="Standard.UseCase" uid="c15fac5e-a069-4d9a-9617-ff8b6a0f257e"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="CarBuilder.App" mc="Standard.Package" uid="0c9355be-d778-401e-97c9-1c025bb3a6a9"/>
         <COMPID name="CarBuilder.DAL" mc="Standard.Package" uid="fd649470-c031-4acc-96c2-733655fb9e4b"/>
         <COMPID name="CarBuilder.BLL" mc="Standard.Package" uid="e0e1ac62-a7d3-4d5a-ad40-48ecd60c3d2b"/>
+        <COMPID name="Informacion carros" mc="Standard.UseCase" uid="d8799c16-e3d4-4ba2-8fc6-56209e1f6dcd"/>
+        <COMPID name="Cliente" mc="Standard.Actor" uid="8fa292e7-e5b5-4aaa-b633-6a73e10c782b"/>
+        <COMPID name="Contruir Carro " mc="Standard.UseCase" uid="56c896bc-35b2-45e9-8518-ebb6231cf256"/>
+        <COMPID name="Carroceria" mc="Standard.UseCase" uid="2fa9e86f-0fed-468c-8289-0d392a65d508"/>
+        <COMPID name="Motor" mc="Standard.UseCase" uid="3d663028-e20d-4336-a04a-b5f528e75689"/>
+        <COMPID name="Suspencion" mc="Standard.UseCase" uid="d05e82d3-f97c-4e28-96aa-22c1a3c48142"/>
+        <COMPID name="Transmision" mc="Standard.UseCase" uid="14c81490-dd03-4908-a71a-88d325de4dcb"/>
+        <COMPID name="Simulacion Torque" mc="Standard.UseCase" uid="ed468e06-f5c7-49db-8e9e-3207c3370e51"/>
+        <COMPID name="Simulador Indicador Aerodinamico" mc="Standard.UseCase" uid="7c0637c7-e6d2-4bbb-8ef2-33b17e0776d7"/>
+        <COMPID name="Simulador Velocidad maxima" mc="Standard.UseCase" uid="16d98414-9f3f-4581-95ee-7c3f57acb46d"/>
+        <COMPID name="Simulador aceleracion" mc="Standard.UseCase" uid="c01d07c6-a9dc-49a5-8682-498ad44a6bd6"/>
+        <COMPID name="Actor" mc="Standard.Actor" uid="15af7a3d-5de5-4907-ab70-ad606d2d0060"/>
+        <COMPID name="Simular Potencia" mc="Standard.UseCase" uid="c15fac5e-a069-4d9a-9617-ff8b6a0f257e"/>
+        <COMPID name="Cliente" mc="Standard.Actor" uid="d7ff6009-62d8-444b-8f35-7019b24b6a28"/>
+        <COMPID name="Simular Velociad Maxima" mc="Standard.UseCase" uid="1e0c3754-aad2-44da-b9ca-1d1745fe39b1"/>
+        <COMPID name="Contrucion carro" mc="Standard.UseCase" uid="83ba0a6a-57db-4885-98d1-75a6f668c004"/>
+        <COMPID name="Realizar calculos componentes carro" mc="Standard.UseCase" uid="fd9ed3f5-3842-4658-ae2b-009131addefe"/>
+        <COMPID name="Actor1" mc="Standard.Actor" uid="5c62f948-1b38-4eb7-a5d3-616102139717"/>
+        <COMPID name="Simulacion aceleracion" mc="Standard.UseCase" uid="0248447a-0dc7-4622-9b0a-8d2ae0318c61"/>
+        <COMPID name="Construir carro" mc="Standard.UseCase" uid="7c259aeb-7788-46e8-b3c5-feb0d16e6f93"/>
+        <COMPID name="Realizar calculos" mc="Standard.UseCase" uid="0713e3d3-f201-4d16-a0af-be2ce9082a2e"/>
+        <COMPID name="Cliente" mc="Standard.Actor" uid="8d5f9c11-6aa4-4342-8369-d992e470b20b"/>
+        <COMPID name="Simulador Indicador Aerodinamico" mc="Standard.UseCase" uid="8c683e24-9ed4-43de-b47f-1943ae9076df"/>
+        <COMPID name="Construsion carro" mc="Standard.UseCase" uid="e3b80586-0ee0-442c-af4a-f9088364cee3"/>
+        <COMPID name="Realizar Calculos" mc="Standard.UseCase" uid="82428cf4-f81e-4d24-ae8d-a58bb011e373"/>
+        <COMPID name="Cliente" mc="Standard.Actor" uid="35312733-d3b5-424a-a1d1-a1dd04925194"/>
+        <COMPID name="Simulador Torque" mc="Standard.UseCase" uid="851d9939-3467-478a-aa41-91085247a1fc"/>
+        <COMPID name="Construccion carro" mc="Standard.UseCase" uid="6a313542-b5c2-4d1a-8ed9-259120d1bf34"/>
+        <COMPID name="Realizar calculos" mc="Standard.UseCase" uid="ed3f89b9-0148-4081-8e87-c81716903d7f"/>
+        <COMPID name="Contruccion carro" mc="Standard.UseCase" uid="c5a2e634-428c-4a4f-9ee1-94f5e5e7a078"/>
+        <COMPID name="Realizar calculos" mc="Standard.UseCase" uid="47a78fc7-4f12-4f11-96d4-35f49746bae0"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Sub-Packages Structure Diagram (automatic)" mc="Standard.ClassDiagram" uid="47f1c4fc-ff4c-44f9-9ffa-84cabaa20e85"/>
+        <COMPID name="Construrir_carro" mc="Standard.UseCaseDiagram" uid="911d9581-c707-4842-a0a1-4fe3c0f07013"/>
+        <COMPID name="Simulador_potencia" mc="Standard.UseCaseDiagram" uid="85857f5a-8684-4deb-bf2a-fcfc6184d4f4"/>
+        <COMPID name="Simulador_torque" mc="Standard.UseCaseDiagram" uid="e33b480e-6abb-4ace-b17d-f9190246f811"/>
+        <COMPID name="Simulador Indicador Aerodinamico" mc="Standard.UseCaseDiagram" uid="8fd142f1-1225-4743-b2c1-7c886a147473"/>
+        <COMPID name="Simulador Aceleracion" mc="Standard.UseCaseDiagram" uid="7a6037f8-f9dd-43ec-9178-f957bb9da875"/>
+        <COMPID name="Simulador Velocidad maxima" mc="Standard.UseCaseDiagram" uid="43b9e4fe-3a59-4a61-b7ca-a1557d2a4dd3"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -13,20 +13,6 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="DependsOnDependency">
-        <OBJECT>
-          <ID name="" mc="Infrastructure.Dependency" uid="c721e629-7bd3-4e41-ba65-d6f834f36522"/>
-          <ATTRIBUTES>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="DependsOn">
-              <ID name="Realizar calculos" mc="Standard.UseCase" uid="0713e3d3-f201-4d16-a0af-be2ce9082a2e"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="11808fcc-e2e2-4448-b28f-2d58488d38ae"/>

@@ -13,3 +13,8 @@ Modelado plataforma de autos de alta gama
 ###### Construir Auto deportivo
 
 ![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Secuencia/InteractionSequenceDiagram.png)
+
+
+###### Simular Auto deportivo
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Secuencia/Simular.png)

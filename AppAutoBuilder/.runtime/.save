@@ -1,11 +1,4 @@
-#Mon May 06 16:06:16 COT 2019
-org.modelio.diagram.editor.OpenedDiagrams9='Simulacion' {0a984f7e-d208-4e0a-8e2e-9cefba9509e3} Standard.UseCaseDiagram
-org.modelio.diagram.editor.OpenedDiagrams8='Simulador Velocidad maxima' {43b9e4fe-3a59-4a61-b7ca-a1557d2a4dd3} Standard.UseCaseDiagram
-org.modelio.diagram.editor.OpenedDiagrams7='Simulador Aceleracion' {7a6037f8-f9dd-43ec-9178-f957bb9da875} Standard.UseCaseDiagram
-org.modelio.diagram.editor.OpenedDiagrams6='Simulador Indicador Aerodinamico' {8fd142f1-1225-4743-b2c1-7c886a147473} Standard.UseCaseDiagram
-org.modelio.diagram.editor.OpenedDiagrams5='Simulador_torque' {e33b480e-6abb-4ace-b17d-f9190246f811} Standard.UseCaseDiagram
-org.modelio.diagram.editor.OpenedDiagrams4='Simulador_potencia' {85857f5a-8684-4deb-bf2a-fcfc6184d4f4} Standard.UseCaseDiagram
-org.modelio.diagram.editor.OpenedDiagrams3='Contrucion carro' {911d9581-c707-4842-a0a1-4fe3c0f07013} Standard.UseCaseDiagram
+#Mon May 06 16:27:58 COT 2019
 org.modelio.diagram.editor.OpenedDiagrams2='Sub-Packages Structure Diagram (automatic)' {47f1c4fc-ff4c-44f9-9ffa-84cabaa20e85} Standard.ClassDiagram
 org.modelio.diagram.editor.OpenedDiagrams1='Interaction Sequence diagram' {a7ca68d3-e613-4eb3-b7a0-a053eca462d5} Standard.SequenceDiagram
 org.modelio.diagram.editor.OpenedDiagrams0='CarBuilder BLL Class Diagram' {f5bfa19d-730e-4db3-b99d-eaad5ffa09e3} Standard.ClassDiagram

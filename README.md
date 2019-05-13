@@ -5,7 +5,7 @@ Modelado plataforma de autos de alta gama
 
 ###### Construcción de auto
 
-![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Casos de uso/Contrucion carro.png)
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Casos%20de%20uso/Contrucion%20carro.png)
 
 ###### Simulación
 

@@ -31,11 +31,23 @@ Modelado plataforma de autos de alta gama
 
 ![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Casos%20de%20uso/Simulador%20torque.png)
 
+## Diagrama de paquetes y componentes 
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Componentes/PackageStructureDiagram.png)
+
 ## Diagrama de clases 
 
-###### Capa lógica de negocio
+###### Diseño de Autos
 
-![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Clases/App.AutoBuilder.BLL.png)
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Clases/App.AutoBuilder.BLL.DisenoAuto.png)
+
+###### Simulación de Autos
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Clases/App.AutoBuilder.BLL.Simulacion.png)
+
+###### Compra de Autos
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Clases/App.AutoBuilder.BLL.Compra.png)
 
 
 ## Diagrama de sequencia

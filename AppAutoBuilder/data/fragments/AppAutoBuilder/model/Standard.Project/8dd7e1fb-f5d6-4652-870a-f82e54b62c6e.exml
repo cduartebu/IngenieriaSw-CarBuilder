@@ -11,6 +11,7 @@
     <DEPENDENCIES>
       <COMP relation="Model">
         <COMPID name="CarBuilder" mc="Standard.Package" uid="9102310d-b6d2-4ce6-b677-dd687d54039f"/>
+        <COMPID name="Casos de Uso" mc="Standard.Package" uid="f01c16f1-92f7-40a6-983f-5abb977eb163"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="AppAutoBuilder" mc="Infrastructure.DiagramSet" uid="43f06168-fded-4f3b-823b-3b796da26128"/>

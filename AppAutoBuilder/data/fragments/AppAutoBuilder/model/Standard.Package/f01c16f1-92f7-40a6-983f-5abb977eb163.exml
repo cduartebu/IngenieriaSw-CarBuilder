@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Casos de Uso" version="4">
+  <OBJECT>
+    <ID name="Casos de Uso" mc="Standard.Package" uid="f01c16f1-92f7-40a6-983f-5abb977eb163"/>
+    <PID name="AppAutoBuilder" mc="Standard.Project" uid="8dd7e1fb-f5d6-4652-870a-f82e54b62c6e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Casos de Uso]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="c9220662-cbeb-4956-92d9-25a471528149"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="Sistema" mc="Standard.Actor" uid="02d4f9e6-cea6-4225-8cc0-ba3845c3fc14"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="Mostrar Resultados" mc="Standard.UseCase" uid="795fd752-1510-47e5-99fe-3ea8c67b5304"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Cliente" mc="Standard.Actor" uid="44f530a7-9561-422d-876b-e616bcfcb75f"/>
+        <COMPID name="Selecionar y personalizar " mc="Standard.UseCase" uid="e536c3d5-c6cf-457a-aeaf-52553d877107"/>
+        <COMPID name="Simular" mc="Standard.UseCase" uid="b68bfdd4-b5fa-412e-b1ee-e10a0b411b2c"/>
+        <COMPID name="Comprar" mc="Standard.UseCase" uid="e174ace6-8da3-44c6-ada9-a4082abd29dd"/>
+        <COMPID name="Listar vehiculos" mc="Standard.UseCase" uid="04351289-e67b-4eb9-85fd-832699d16189"/>
+        <COMPID name="Selecionar vehiculo" mc="Standard.UseCase" uid="1cff72e4-bf8b-46ac-8094-b4a55f887a52"/>
+        <COMPID name="Sistema" mc="Standard.Actor" uid="02d4f9e6-cea6-4225-8cc0-ba3845c3fc14"/>
+        <COMPID name="     Contruir vehiculo          (De acuerdo con tipo de vehiculo)" mc="Standard.UseCase" uid="c617f40f-adfe-444f-9e4c-2e255457afa3"/>
+        <COMPID name="Interna (Partes)" mc="Standard.UseCase" uid="fb57717b-f035-422c-bcb0-d59b179e0c0e"/>
+        <COMPID name="Externa (Accesorios)" mc="Standard.UseCase" uid="e862a61d-770b-41cb-8657-eef003f7b383"/>
+        <COMPID name="Listar partes segun tipo carro" mc="Standard.UseCase" uid="d1d1dad1-d04d-426a-acc7-0b3f6c47e575"/>
+        <COMPID name="Selecionar partes" mc="Standard.UseCase" uid="99d48002-0706-4e52-a4d9-a020c879cc81"/>
+        <COMPID name="Modificar vehiculo con parte o accesorio" mc="Standard.UseCase" uid="9fe635b0-4c85-4e6b-9ccd-75a1423b7cd8"/>
+        <COMPID name="Listar Accesorios vehiculo" mc="Standard.UseCase" uid="172782aa-d333-4663-af1a-bd370d2c065c"/>
+        <COMPID name="Selecionar accesorio" mc="Standard.UseCase" uid="8c8f596d-e47f-4a18-9a0f-ff1bf9f3037d"/>
+        <COMPID name="Iniciar simulacion" mc="Standard.UseCase" uid="3c5af7ca-fa71-4abf-8ea6-398d275af9a7"/>
+        <COMPID name="Simulacion Personalizada" mc="Standard.UseCase" uid="30d9670b-5fd9-43d6-80bf-49aa26dfd287"/>
+        <COMPID name="Simulacion Completa" mc="Standard.UseCase" uid="9e3b0660-94be-4d92-b7cf-07563c1df56a"/>
+        <COMPID name="Listar Simulaciones" mc="Standard.UseCase" uid="c155cd85-c445-4011-ad48-3081382ea461"/>
+        <COMPID name="Selecionar Simulacion" mc="Standard.UseCase" uid="7a027bdf-636e-4ceb-8571-44145b9e66d6"/>
+        <COMPID name="Mostrar Resultados" mc="Standard.UseCase" uid="795fd752-1510-47e5-99fe-3ea8c67b5304"/>
+        <COMPID name="Crear orden" mc="Standard.UseCase" uid="767f0ea3-1aac-4f83-b465-0bd80ac0636c"/>
+        <COMPID name="Ingresar informacion cliente" mc="Standard.UseCase" uid="afb35138-400f-40c4-b4cb-620c1cbed4e8"/>
+        <COMPID name="Validar informacion" mc="Standard.UseCase" uid="48c77408-16fa-4f03-b4be-3e4036a1f34e"/>
+        <COMPID name="Generar factura" mc="Standard.UseCase" uid="82e20a6a-6106-4fa5-9aab-94c6ad03454d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="1. General " mc="Standard.UseCaseDiagram" uid="22423e33-cc20-42a3-a3dc-94933d9e2bd1"/>
+        <COMPID name="2 Selecionar y Personalizar" mc="Standard.UseCaseDiagram" uid="5096e623-adeb-4c97-93e6-32a4bec8cf2b"/>
+        <COMPID name="3. Personalizar" mc="Standard.UseCaseDiagram" uid="44a2dd64-257d-45b2-a101-a13c94026024"/>
+        <COMPID name="4 Simulacion" mc="Standard.UseCaseDiagram" uid="4ea625b9-f070-499b-9c9e-98a9e3a35221"/>
+        <COMPID name="5 Comprar" mc="Standard.UseCaseDiagram" uid="93f361ad-8721-4e69-b6b2-3ebcd4353a62"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

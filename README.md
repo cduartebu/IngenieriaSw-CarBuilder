@@ -28,15 +28,32 @@ Modelado plataforma de autos de alta gama
 * Una vez el usuario haya decido comprar el vehículo, el sistema mostrará un formulario con los datos necesarios para generar la orden de compra.
 * Si los datos son válidos y la orden pudo ser generada, se enviará un correo con la confirmación de la orden al correo especificado por el usuario.
 
+## Diagrama de paquetes y componentes 
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Componentes/PackageStructureDiagram.png)
+
 ## Diagrama de clases 
 
-###### Capa lógica de negocio
+###### Diseño de Autos
 
-![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Clases/App.AutoBuilder.BLL.png)
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Clases/App.AutoBuilder.BLL.DisenoAuto.png)
+
+###### Simulación de Autos
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Clases/App.AutoBuilder.BLL.Simulacion.png)
+
+###### Compra de Autos
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Clases/App.AutoBuilder.BLL.Compra.png)
 
 
-## Diagrama de secuencia
+## Diagrama de sequencia
 
 ###### Construir Auto deportivo
 
 ![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Secuencia/InteractionSequenceDiagram.png)
+
+
+###### Simular Auto deportivo
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Secuencia/Simular.png)

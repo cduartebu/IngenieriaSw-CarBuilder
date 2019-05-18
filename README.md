@@ -16,6 +16,7 @@ Modelado plataforma de autos de alta gama
 * El sistema debe mostrar los partes y accesorios que puede ser modificables de acuerdo al tipo de vehículo escogido.
 * El sistema debe mostrar las opciones disponibles en stock para la parte que el usuario quiere modificar de acuerdo al tipo de vehículo escogido.
 * El usuario podrá escoger de la parte que desea cambiar a partir de las opciones mostradas por el sistema.
+* El usuario podrá modificar el motor, transmisión, suspensión, frenos y llantas. Podrá agregar accesorios como Aleron, barras de estabilización, sistema de ECU optimizado, sunroof y AirBags. Del interior del auto el usuario podrá modificar la cojinería, timón, pedales.
 * Una vez el usuario haya terminado de configurar el auto, el usuario tendrá la opción de simular el rendimiento del auto y/o de generar la orden de compra.
 
 #### Módulo de Simulación de autos

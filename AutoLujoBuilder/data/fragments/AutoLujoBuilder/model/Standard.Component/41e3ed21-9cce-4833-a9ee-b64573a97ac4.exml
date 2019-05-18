@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Presentacion" version="4">
+  <OBJECT>
+    <ID name="Presentacion" mc="Standard.Component" uid="41e3ed21-9cce-4833-a9ee-b64573a97ac4"/>
+    <PID name="CarBuilder.App" mc="Standard.Package" uid="230bdeef-e4d5-4df0-998c-b380d15fc214"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Presentacion]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AutoStudioController" mc="Standard.Class" uid="43df9c96-9864-44f6-b723-a43ad8ba5d08"/>
+        <COMPID name="AutosSimulacionController" mc="Standard.Class" uid="37cdf695-c531-442b-b0a8-d284720768b8"/>
+        <COMPID name="AutosCompraController" mc="Standard.Class" uid="b182d5ac-8653-4968-bbe2-d011b9d4d3fb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

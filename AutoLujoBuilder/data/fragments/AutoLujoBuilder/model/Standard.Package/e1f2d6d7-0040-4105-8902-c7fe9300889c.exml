@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CarBuilder.BLL" version="4">
+  <OBJECT>
+    <ID name="CarBuilder.BLL" mc="Standard.Package" uid="e1f2d6d7-0040-4105-8902-c7fe9300889c"/>
+    <PID name="autolujobuilder" mc="Standard.Package" uid="0c1ea820-731c-4277-81f0-99a0978a0077"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CarBuilder.BLL]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DiseñoAuto" mc="Standard.Component" uid="d34562b3-ff37-4ec4-be84-4828ff9e0d9f"/>
+        <COMPID name="SimulacionAuto" mc="Standard.Component" uid="4bf75af9-e69d-4a63-a6de-7803aa77c886"/>
+        <COMPID name="CompraAuto" mc="Standard.Component" uid="65f5d757-cc87-4c12-840c-c20c71694230"/>
+        <COMPID name="App.Facade" mc="Standard.Component" uid="f70a3c49-c6b9-4c99-8e10-1d8a3ace071a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

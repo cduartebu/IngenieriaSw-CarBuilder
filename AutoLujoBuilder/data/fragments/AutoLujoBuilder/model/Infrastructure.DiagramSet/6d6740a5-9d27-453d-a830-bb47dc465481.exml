@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Package Structure" version="4">
+  <OBJECT>
+    <ID name="Package Structure" mc="Infrastructure.DiagramSet" uid="6d6740a5-9d27-453d-a830-bb47dc465481"/>
+    <PID name="Auto Diagrams" mc="Infrastructure.DiagramSet" uid="46ec63a1-bc1e-4801-8fff-ed2397f2bae6"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Package Structure]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="ReferencedDiagram">
+        <ID name="Package Structure Diagram (automatic)" mc="Standard.ClassDiagram" uid="58b5bdd8-128c-4b64-853f-5967fdd86454"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

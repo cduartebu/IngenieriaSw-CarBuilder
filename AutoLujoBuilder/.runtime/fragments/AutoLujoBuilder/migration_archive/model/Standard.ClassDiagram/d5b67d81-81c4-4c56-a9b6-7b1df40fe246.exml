@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DiseñoAuto" version="4">
+  <OBJECT>
+    <ID name="DiseñoAuto" mc="Standard.ClassDiagram" uid="d5b67d81-81c4-4c56-a9b6-7b1df40fe246"/>
+    <PID name="CarBuilder.BLL" mc="Standard.Package" uid="e1f2d6d7-0040-4105-8902-c7fe9300889c"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">136</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[DiseñoAuto]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="IDetalleAutoParte" mc="Standard.Interface" uid="39ac711e-a3cc-4cc6-816c-cba2f3fc0551"/>
+        <REFOBJ>
+          <ID name="NombrePropiedad" mc="Standard.Attribute" uid="cb167a97-bdea-4b05-8858-afe870382ced"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Valor" mc="Standard.Attribute" uid="504668c2-3099-4335-9787-6bb8e356f2c8"/>
+        </REFOBJ>
+        <ID name="DetalleAutoParte" mc="Standard.Class" uid="8ab73803-9e27-437c-b1d1-f84c36f625af"/>
+        <REFOBJ>
+          <ID name="InterfaceRealization" mc="Standard.InterfaceRealization" uid="83003f50-eba3-4a47-a7ed-06a183eabe33"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="c3a7f4c4-fa5e-48f9-81df-01b1f4d01ab9"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

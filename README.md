@@ -49,11 +49,16 @@ Modelado plataforma de autos de alta gama
 
 ## Diagrama de sequencia
 
-###### Construir Auto deportivo
+###### Diseño de Autos
 
-![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Secuencia/InteractionSequenceDiagram.png)
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Secuencia/SecuenciaDiseñoAuto.png)
 
 
-###### Simular Auto deportivo
+###### Simulación del Auto
 
-![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Secuencia/Simular.png)
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Secuencia/SecuenciaSimulación.png)
+
+
+###### Compra de Autos
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Secuencia/SecuenciaCompra.png)

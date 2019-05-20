@@ -47,7 +47,7 @@ Modelado plataforma de autos de alta gama
 ![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Clases/App.AutoBuilder.BLL.Compra.png)
 
 
-## Diagrama de sequencia
+## Diagramas de secuencia
 
 ###### Diseño de Autos
 

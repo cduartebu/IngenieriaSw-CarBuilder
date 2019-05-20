@@ -92,16 +92,29 @@ Integrantes:
 
 ![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Secuencia/SecuenciaCompra.png)
 
+
 ## Diagrama de Actividades
 
 #### General
 
-![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Actividades/Actividades general.png)
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Actividades/Actividadesgeneral.png)
+
 
 #### Configurar Partes
 
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Actividades/ConfigurarPartes.png)
+
+
 #### Configurar Accesorios
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Actividades/ConfigurarAccesorios.png)
+
 
 #### Realizar Simulacion
 
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Actividades/RealizarSimulacion.png)
+
+
 #### Realizar Compra
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Actividades/RealizarCompra.png)

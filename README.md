@@ -96,4 +96,12 @@ Integrantes:
 
 #### General
 
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Actividades/Actividades general.png)
 
+#### Configurar Partes
+
+#### Configurar Accesorios
+
+#### Realizar Simulacion
+
+#### Realizar Compra

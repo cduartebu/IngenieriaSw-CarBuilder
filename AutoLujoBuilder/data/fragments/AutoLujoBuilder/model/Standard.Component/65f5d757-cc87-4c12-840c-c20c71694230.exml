@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CompraAuto" version="4">
+  <OBJECT>
+    <ID name="CompraAuto" mc="Standard.Component" uid="65f5d757-cc87-4c12-840c-c20c71694230"/>
+    <PID name="CarBuilder.BLL" mc="Standard.Package" uid="e1f2d6d7-0040-4105-8902-c7fe9300889c"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CompraAuto]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="AutosOrdenesProvider" mc="Standard.BindableInstance" uid="b7f9ca61-a2ba-4d07-9b5d-4a6d5697c399"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[AutosOrdenesProvider]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="IAutosOrdenesProvider" mc="Standard.Interface" uid="0e6b5059-f250-490c-a41b-7ab4525776cd"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Orden" mc="Standard.BindableInstance" uid="9c8f9ddf-72cc-480e-97be-52dc05a523db"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Orden]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Orden" mc="Standard.Class" uid="2ae6141f-b023-47d8-8481-365645bef400"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="819c6edd-e6a2-43fb-b595-8c58971a488e"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="AutosOrdenesProvider" mc="Standard.Class" uid="5604137f-e8a8-442e-a1d3-ace877b60b07"/>
+        <COMPID name="IAutosOrdenesProvider" mc="Standard.Interface" uid="0e6b5059-f250-490c-a41b-7ab4525776cd"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="a6cf6e0b-24b6-4f12-8633-69ab99bc1576"/>
+        <COMPID name="Orden" mc="Standard.Class" uid="2ae6141f-b023-47d8-8481-365645bef400"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="CompraAutoDiagram" mc="Standard.ClassDiagram" uid="4b55b3d2-adbb-42ba-b029-89c21121396e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

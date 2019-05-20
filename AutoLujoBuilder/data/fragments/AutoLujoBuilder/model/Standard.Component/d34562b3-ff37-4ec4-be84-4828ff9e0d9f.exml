@@ -1,0 +1,168 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DiseñoAuto" version="4">
+  <OBJECT>
+    <ID name="DiseñoAuto" mc="Standard.Component" uid="d34562b3-ff37-4ec4-be84-4828ff9e0d9f"/>
+    <PID name="CarBuilder.BLL" mc="Standard.Package" uid="e1f2d6d7-0040-4105-8902-c7fe9300889c"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DiseñoAuto]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="User" mc="Standard.BindableInstance" uid="b37076ba-48f6-4c77-9bba-38fb528831ec"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[User]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Cliente" mc="Standard.Class" uid="a6cf6e0b-24b6-4f12-8633-69ab99bc1576"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="d0de64a7-e367-448a-ac15-9b9b95ef85ca"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="AutoConfigurationHandler" mc="Standard.BindableInstance" uid="a2563bac-966d-40d8-9f98-d94282676bc7"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[AutoConfigurationHandler]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="IAutoConfigurarHandler" mc="Standard.Interface" uid="1dc01d5e-734f-442d-9fe3-c74241e83977"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PiezaAutoProvider" mc="Standard.BindableInstance" uid="5ac56d4b-5201-4ab5-9e91-686785848266"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[PiezaAutoProvider]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="IPiezaAutoProvider" mc="Standard.Interface" uid="135c91de-a9a2-41a6-bc22-05c994f2c8cd"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="AutosFactory" mc="Standard.BindableInstance" uid="985ab846-6e59-4d34-af64-ca9662e45bbd"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[AutosFactory]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="IAutosFactory" mc="Standard.Interface" uid="b1582adb-eb3c-444d-9fb4-25f803c526ca"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Auto" mc="Standard.BindableInstance" uid="a8f7f0ec-ba5f-4c9a-9371-ed164391069a"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Auto]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="Auto" mc="Standard.Class" uid="e646d8ee-418d-4d4f-8da3-8cc9f4907fee"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PiezaAuto" mc="Standard.BindableInstance" uid="f593b5e0-a81d-42c2-9e90-34828340d3f7"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[PiezaAuto]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="PiezaAuto" mc="Standard.Class" uid="856d0ba2-12a1-4491-a17a-8e5c91a82190"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="" mc="Infrastructure.Note" uid="2c1612a0-45e9-44f1-b592-17db860089e1"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="a988a7c6-2b80-4d15-b5bf-007c4d6d37f4"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="PropiedadesPieza" mc="Standard.Class" uid="168f67f7-5acb-4e1b-8266-fe84b5fdf70e"/>
+        <COMPID name="Pieza" mc="Standard.Class" uid="32fb850a-3ccd-41a6-9aca-2d1241f3a650"/>
+        <COMPID name="Auto" mc="Standard.Class" uid="e646d8ee-418d-4d4f-8da3-8cc9f4907fee"/>
+        <COMPID name="PiezaAuto" mc="Standard.Class" uid="856d0ba2-12a1-4491-a17a-8e5c91a82190"/>
+        <COMPID name="IAutosFactory" mc="Standard.Interface" uid="b1582adb-eb3c-444d-9fb4-25f803c526ca"/>
+        <COMPID name="TipoAuto" mc="Standard.Class" uid="c39abded-6952-4da8-8973-c573082b61d7"/>
+        <COMPID name="IPiezaAutoProvider" mc="Standard.Interface" uid="135c91de-a9a2-41a6-bc22-05c994f2c8cd"/>
+        <COMPID name="IAutoConfigurarHandler" mc="Standard.Interface" uid="1dc01d5e-734f-442d-9fe3-c74241e83977"/>
+        <COMPID name="PiezaAutoProvider" mc="Standard.Class" uid="16e380d4-503b-4002-aaf9-243350ae2590"/>
+        <COMPID name="AutoConfiguracionHandler" mc="Standard.Class" uid="8e3c5cbd-2866-40f4-8151-620f15e27592"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DiseñoAuto" mc="Standard.ClassDiagram" uid="d5b67d81-81c4-4c56-a9b6-7b1df40fe246"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

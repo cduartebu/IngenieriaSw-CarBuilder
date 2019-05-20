@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CarBuilder.Infraestructura" version="4">
+  <OBJECT>
+    <ID name="CarBuilder.Infraestructura" mc="Standard.Package" uid="fd7aa67e-dd91-463c-b37d-fed52516ad33"/>
+    <PID name="autolujobuilder" mc="Standard.Package" uid="0c1ea820-731c-4277-81f0-99a0978a0077"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CarBuilder.Infraestructura]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ServiceLocator" mc="Standard.Component" uid="bf6643d0-bfca-4654-9e37-23ac5a309351"/>
+        <COMPID name="Modelos" mc="Standard.Component" uid="c6a58cd6-4113-441c-9cce-29ab958341b1"/>
+        <COMPID name="Seguridad" mc="Standard.Component" uid="e5d4d0d6-4e97-40f9-8c77-784fa1bfb647"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

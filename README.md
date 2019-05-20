@@ -1,11 +1,11 @@
 # IngenieriaSw-CarBuilder
 Modelado plataforma de autos de alta gama.
 
-Integrantes: Carlos Avella     cod. 20191099003
-             Carlos Duarte     cod. 20191099008
-             Christian Rojas   cod. 20191099019
-             Edgar Vasquez     cod. 20191099021
-
+Integrantes: 
+* Carlos Avella     cod. 20191099003
+* Carlos Duarte     cod. 20191099008
+* Christian Rojas   cod. 20191099019
+* Edgar Vasquez     cod. 20191099021
              
 ## Requerimientos
 

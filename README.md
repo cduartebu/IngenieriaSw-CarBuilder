@@ -91,3 +91,5 @@ Integrantes:
 ###### Compra de Autos
 
 ![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Secuencia/SecuenciaCompra.png)
+
+## Diagrama de Actividades

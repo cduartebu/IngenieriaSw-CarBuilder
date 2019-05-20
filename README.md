@@ -1,6 +1,12 @@
 # IngenieriaSw-CarBuilder
-Modelado plataforma de autos de alta gama
+Modelado plataforma de autos de alta gama.
 
+Integrantes: Carlos Avella     cod. 20191099003
+             Carlos Duarte     cod. 20191099008
+             Christian Rojas   cod. 20191099019
+             Edgar Vasquez     cod. 20191099021
+
+             
 ## Requerimientos
 
 * Permitir a un usuario comprar y personalizar un auto
@@ -27,6 +33,29 @@ Modelado plataforma de autos de alta gama
 
 * Una vez el usuario haya decido comprar el vehículo, el sistema mostrará un formulario con los datos necesarios para generar la orden de compra.
 * Si los datos son válidos y la orden pudo ser generada, se enviará un correo con la confirmación de la orden al correo especificado por el usuario.
+
+## Diagrama de casos de uso 
+
+###### General
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Casos%20de%20uso/1.%20General%20.png)
+
+###### Seleccionar
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Casos%20de%20uso/2%20Selecionar%20y%20Personalizar.png)
+
+###### Personalizar
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Casos%20de%20uso/3.%20Personalizar.png)
+
+###### Simulación de Auto
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Casos%20de%20uso/4%20Simulacion.png)
+
+###### Comprar Auto
+
+![alt text](https://github.com/cduartebu/IngenieriaSw-CarBuilder/blob/develop/Diagramas/Casos%20de%20uso/5%20Comprar.png)
+
 
 ## Diagrama de paquetes y componentes 
 
